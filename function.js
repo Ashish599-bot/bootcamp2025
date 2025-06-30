@@ -14,3 +14,12 @@ function replace(str,charToReplace,strReplacement){
     return result
 }
 console.log(replace("apple","p","e"))
+
+function strLnegthEven(str){
+    if(str.length %2 === 0){
+        return "even"
+    }else{
+        return "odd"
+    }
+}
+console.log(strLnegthEven("hellop"))
