@@ -23,3 +23,8 @@ function strLnegthEven(str){
     }
 }
 console.log(strLnegthEven("hellop"))
+
+function FindRabbit(arr){
+    return arr.indexOf("rabbit")
+}
+console.log(FindRabbit(["monkey","cat","rabbit","dog"]))
