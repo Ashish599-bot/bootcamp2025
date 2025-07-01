@@ -34,4 +34,12 @@ function filter_list(l) {
     return typeof item === "number";
   });
 }
-console.log(filter_list([1,"a",2,"b"]))
+// console.log(filter_list([1,"a",2,"b"]))
+
+function accum(s) {
+  return s
+    .split('')
+    .map((char, i) => char.toUpperCase() + char.toLowerCase().repeat(i))
+    .join('-');
+}
+console.log(accum("abcd"))
