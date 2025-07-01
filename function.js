@@ -13,7 +13,7 @@ function replace(str,charToReplace,strReplacement){
     }
     return result
 }
-console.log(replace("apple","p","e"))
+// console.log(replace("apple","p","123"))
 
 function strLnegthEven(str){
     if(str.length %2 === 0){
@@ -22,9 +22,16 @@ function strLnegthEven(str){
         return "odd"
     }
 }
-console.log(strLnegthEven("hellop"))
+// console.log(strLnegthEven("hellop"))
 
 function FindRabbit(arr){
     return arr.indexOf("rabbit")
 }
-console.log(FindRabbit(["monkey","cat","rabbit","dog"]))
+// console.log(FindRabbit(["monkey","cat","rabbit","dog"]))
+
+function filter_list(l) {
+  return l.filter(function(item) {
+    return typeof item === "number";
+  });
+}
+console.log(filter_list([1,"a",2,"b"]))
