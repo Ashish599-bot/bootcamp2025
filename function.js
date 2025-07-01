@@ -42,4 +42,16 @@ function accum(s) {
     .map((char, i) => char.toUpperCase() + char.toLowerCase().repeat(i))
     .join('-');
 }
-console.log(accum("abcd"))
+// console.log(accum("abcd"))
+
+function simpleMultiplication(number){
+    if(number % 2 === 0){
+        return number * 8;
+    } else{
+        return number * 9;
+    }
+}
+console.log(simpleMultiplication(6))
+console.log(simpleMultiplication(5))
+console.log(simpleMultiplication(4))
+console.log(simpleMultiplication(9))
