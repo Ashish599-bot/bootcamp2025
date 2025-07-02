@@ -60,3 +60,8 @@ function stringToArray(string){
     return string.split(" ")
 }
 console.log(stringToArray("The boy is so"))
+
+function grow(x){
+  return x.reduce((product,current) => product * current,1);
+}
+console.log(grow([1,2,5,6]))
