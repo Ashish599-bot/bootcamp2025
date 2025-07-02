@@ -55,3 +55,8 @@ console.log(simpleMultiplication(6))
 console.log(simpleMultiplication(5))
 console.log(simpleMultiplication(4))
 console.log(simpleMultiplication(9))
+
+function stringToArray(string){
+    return string.split(" ")
+}
+console.log(stringToArray("The boy is so good"))
