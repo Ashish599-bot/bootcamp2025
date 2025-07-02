@@ -59,4 +59,4 @@ console.log(simpleMultiplication(9))
 function stringToArray(string){
     return string.split(" ")
 }
-console.log(stringToArray("The boy is so good"))
+console.log(stringToArray("The boy is so"))
