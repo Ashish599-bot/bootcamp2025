@@ -55,6 +55,11 @@ console.log(simpleMultiplication(6))
 console.log(simpleMultiplication(5))
 console.log(simpleMultiplication(4))
 console.log(simpleMultiplication(9))
+ 
+function stringToArray(string){
+    return string.split(" ")
+}
+console.log(stringToArray("The boy is so good"))
 
 function sumArray(arr) {
   if (!Array.isArray(arr) || arr.length <= 2) return 0;
@@ -65,3 +70,4 @@ function sumArray(arr) {
 console.log(sumArray([1,2,4,5]))
 console.log(sumArray([0]))
 console.log(sumArray(9,8,6))
+
