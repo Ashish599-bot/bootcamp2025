@@ -51,6 +51,7 @@ function simpleMultiplication(number){
         return number * 9;
     }
 }
+
 // console.log(simpleMultiplication(6))
 // console.log(simpleMultiplication(5))
 // console.log(simpleMultiplication(4))
@@ -65,3 +66,15 @@ function grow(x){
   return x.reduce((product,current) => product * current,1);
 }
 console.log(grow([1,2,5,6])) 
+
+
+function sumArray(arr) {
+  if (!Array.isArray(arr) || arr.length <= 2) return 0;
+  const sorted = arr.slice().sort((a, b) => a - b);
+  const middle = sorted.slice(1, -1);
+  return middle.reduce((sum, num) => sum + num, 0);
+}
+console.log(sumArray([1,2,4,5]))
+console.log(sumArray([0]))
+console.log(sumArray(9,8,6))
+
